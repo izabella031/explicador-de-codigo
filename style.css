@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #F9FAFB 0%, #E0E7FF 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  
+}
+
+#robo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+  
+}
+/* Cabeçalho */
+h1 {
+  font-size: 2rem;
+  color: #1E3A8A;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2563EB;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+#pesquisa {
+  margin: 20px 0;
+  text-align: center;
+  position: sticky;
+}
+
+.subtitulo {
+  color: #334155;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Campo de busca */
+#codeInput {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 250px;
+  margin-right: 10px;
+  outline: none;
+  color: #333;
+  text-align: center;
+}
+
+#explainButton {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#explainButton:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+input:focus {
+  border-color: #1E3A8A;
+}
+
+#explainButton {
+  padding: 10px 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+#explainButton:hover {
+  background-color: #1e40af;
+}
+
+
+
+/* Efeito de aparecimento */
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Exemplo de código */
+#resultado h2 {
+  color: #2563EB;
+  margin-bottom: 8px;
+}
+
+
+footer {
+  margin-top: auto;
+  padding: 20px 0;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
