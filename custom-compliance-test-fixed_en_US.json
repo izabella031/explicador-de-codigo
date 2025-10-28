@@ -1,0 +1,25 @@
+{
+  "Rules": [
+    {
+      "SettingName": "OneDriveSignedIn",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://learn.microsoft.com/sharepoint/use-silent-account-configuration",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Corrigir OneDrive",
+          "Description": "Abra o OneDrive e faça login com sua conta de trabalho para restaurar a conformidade."
+        }
+      ]
+    }
+  ],
+  "Settings": [
+    {
+      "SettingName": "OneDriveSignedIn",
+      "DisplayName": "OneDrive Sign-in Status",
+      "Description": "Reports noncompliance if the user is not signed in to OneDrive with their work account."
+    }
+  ]
+}
