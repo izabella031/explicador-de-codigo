@@ -1,0 +1,141 @@
+{
+ "img": {
+    "descricao": "A tag insere uma imagem. Ela acompanha os atributos 'src' para o caminho da imagem e 'alt' para uma descrição da imagem.",
+    "exemplo": "<img src='https://img.freepik.com/premium-photo/little-robot-futuristic-waving-hand-ai-generated-character-3d-image-cheery-bot-isolated-mascot-bokeh-blue-background_1028938-58404.jpg' alt='Descrição da imagem'>"
+},
+
+"a": {
+    "descricao": "A tag cria um link para outra página ou recurso. O atributo 'href' especifica o destino do link.",
+    "exemplo": "<a href='https://www.exemplo.com'>Clique aqui para visitar o exemplo.com - link fictício</a>"
+},
+
+"div": {
+    "descricao": "A tag é um contêiner genérico usado para agrupar elementos e aplicar estilos ou scripts a eles.",
+    "exemplo": "<div class='meu-estilo'>Conteúdo dentro de uma div</div>"
+
+},
+
+"footer": {
+    "descricao": "A tag define o rodapé de um documento ou seção, geralmente contendo informações como direitos autorais ou links de contato.",
+    "exemplo": "<footer>© 2024 Minha Empresa. Todos os direitos reservados.</footer>"
+},
+
+"script": {
+    "descricao": "A tag é usada para incorporar ou referenciar scripts, como JavaScript, em um documento HTML.",
+    "exemplo": "<script src='meu-script.js'></script>"
+
+
+},
+
+"body": {
+    "descricao": "A tag representa o conteúdo principal de um documento HTML, onde todo o conteúdo visível da página é colocado.",
+    "exemplo": "<body><h1>Bem-vindo ao meu site</h1><p>Este é o conteúdo principal.</p></body>"
+},
+
+"head": {
+    "descricao": "A tag contém metadados sobre o documento HTML, como título, links para estilos e scripts.",
+    "exemplo": "<head><title>Meu Site</title><link rel='stylesheet' href='estilos.css'></head>"
+
+}, 
+
+"html": {
+    "descricao": "A tag raiz que define um documento HTML. Todos os outros elementos HTML devem estar dentro desta tag.",
+    "exemplo": "*<html><head>...</head><body>...</body></html>"
+
+},
+
+"h1": {
+    "descricao": "A tag define o título mais importante em um documento HTML. É usada para destacar o cabeçalho principal.",
+    "exemplo": "<h1>Este é o título principal</h1>"
+},
+
+"p": {
+    "descricao": "A tag define um parágrafo de texto em um documento HTML.",
+    "exemplo": "<p>Este é um parágrafo de texto.</p>"
+},
+
+"button": {
+    "descricao": "A tag cria um botão clicável que pode ser usado para enviar formulários ou executar scripts.",
+    "exemplo": "<button>Clique aqui</button>"
+},
+
+"link": {
+    "descricao": "A tag é usada para vincular recursos externos, como folhas de estilo CSS, ao documento HTML.",
+    "exemplo": "<link rel='stylesheet' href='estilos.css'>"
+},
+
+"meta": {
+    "descricao": "A tag fornece metadados sobre o documento HTML, como informações de codificação de caracteres e configurações de viewport.",
+    "exemplo": "<meta charset='UTF-8'>"
+},
+
+"HTML": {
+    "a": {
+      "descricao": "Cria um link de hipertexto que leva a outra página ou âncora.",
+      "exemplo": "<a href='https://exemplo.com' target='_blank'>Visite este site</a>"
+    },
+    "img": {
+      "descricao": "Exibe uma imagem no documento, usando o atributo src para o arquivo e alt para texto alternativo.",
+      "exemplo": "<img src='imagem.jpg' alt='Descrição da imagem'>"
+    },
+    "div": {
+      "descricao": "Contêiner genérico para agrupar outros elementos e aplicar estilos ou scripts.",
+      "exemplo": "<div class='caixa'>Conteúdo aqui</div>"
+    },
+    "section": {
+      "descricao": "Define uma seção genérica de conteúdo tematicamente relacionado.",
+      "exemplo": "<section><h2>Título da Seção</h2><p>Texto da seção.</p></section>"
+    },
+    "header": {
+      "descricao": "Representa o cabeçalho de uma página ou de uma seção, normalmente contendo título ou navegação.",
+      "exemplo": "<header><h1>Bem‑vindo</h1></header>"
+    }
+  },
+  "CSS": {
+    "color": {
+      "descricao": "Define a cor do texto de um elemento.",
+      "exemplo": "p { color: #333333; }"
+    },
+    "background-color": {
+      "descricao": "Define a cor de fundo de um elemento.",
+      "exemplo": "div { background-color: #f0f0f0; }"
+    },
+    "display": {
+      "descricao": "Define como o elemento é exibido (block, inline, flex, grid, etc.).",
+      "exemplo": "span { display: inline; }"
+    },
+    "flex": {
+      "descricao": "Usado em contêineres flexíveis para definir o modelo flexbox; permite layout mais flexível.",
+      "exemplo": "div { display: flex; flex-direction: row; }"
+    },
+    "border-radius": {
+      "descricao": "Arredonda os cantos de um elemento.",
+      "exemplo": "button { border-radius: 8px; }"
+    }
+  },
+  "JavaScript": {
+    "let": {
+      "descricao": "Declara uma variável cujo valor pode ser alterado posteriormente.",
+      "exemplo": "let contador = 0;"
+    },
+    "const": {
+      "descricao": "Declara uma constante — variável cujo valor não pode ser reatribuído.",
+      "exemplo": "const PI = 3.14159;"
+    },
+    "function": {
+      "descricao": "Declara uma função, que agrupa um bloco de código reutilizável.",
+      "exemplo": "function saudacao() { console.log('Olá!'); }"
+    },
+    "for": {
+      "descricao": "Loop que percorre valores ou executa repetidamente um bloco de código por um número específico de vezes.",
+      "exemplo": "for (let i = 0; i < 5; i++) { console.log(i); }"
+    },
+    "addEventListener": {
+      "descricao": "Método que adiciona um ouvinte para um evento em um elemento (como clique, digitação, etc.).",
+      "exemplo": "botao.addEventListener('click', () => { alert('Clicado!'); });"
+    }
+  }
+
+}
+
+
