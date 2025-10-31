@@ -10,10 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(error => console.error("Erro ao carregar JSON:", error));
 
+
+
   // 2. Quando clicar no botão, busca e mostra o resultado
   const button = document.getElementById("explainButton");
   const input = document.getElementById("codeInput");
   const resultadoDiv = document.getElementById("resultado");
+
+
 
   input.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
@@ -40,7 +44,8 @@ input.value = "";
 input.focus();
 
     } else {
-      resultadoDiv.innerHTML = `<p>❌ Não encontrei explicação para a tag <strong>${tag}</strong>.</p>`;
+      resultadoDiv.innerHTML = `<p>Campo vazio, digite uma tag <strong>${tag}</strong>.</p>`;
+      resultadoDiv.style.color = "red";
     }
   });
 });
