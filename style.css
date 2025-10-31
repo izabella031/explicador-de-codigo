@@ -1,4 +1,4 @@
-/* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Jersey+15&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,8 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 40px 20px;
-  font-family: "Segoe UI", Roboto, sans-serif;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 20px;
   
 }
 
@@ -22,6 +23,12 @@ body {
   width: 60px;
   height: auto;
   cursor: pointer;
+  margin-top: 50px;
+}
+
+#cod {
+  width: 30px;
+  margin-left: 10px;
   
 }
 /* Cabeçalho */
@@ -50,6 +57,7 @@ h2 {
   margin: 20px 0;
   text-align: center;
   position: sticky;
+  margin-top: 20px;
 }
 
 .subtitulo {
@@ -71,6 +79,7 @@ h2 {
   outline: none;
   color: #333;
   text-align: center;
+  margin-top: 30px;
 }
 
 #explainButton {
@@ -135,5 +144,14 @@ footer {
   text-align: center;
   color: #666;
   font-size: 0.9rem;
+}
+
+.fala-robo {
+  background-color: #E0E7FF;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #1E3A8A;
 }
 
