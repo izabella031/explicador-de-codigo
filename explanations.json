@@ -40,7 +40,7 @@
 
 "html": {
     "descricao": "A tag raiz que define um documento HTML. Todos os outros elementos HTML devem estar dentro desta tag.",
-    "exemplo": "*<html><head>...</head><body>...</body></html>"
+    "exemplo": "*<*html*>*"
 
 },
 
@@ -61,27 +61,13 @@
 
 "link": {
     "descricao": "A tag é usada para vincular recursos externos, como folhas de estilo CSS, ao documento HTML.",
-    "exemplo": "<link rel='stylesheet' href='estilos.css'>"
+    "exemplo": "*<*link rel='stylesheet' href='estilos.css'*>*"
 },
 
 "meta": {
     "descricao": "A tag fornece metadados sobre o documento HTML, como informações de codificação de caracteres e configurações de viewport.",
-    "exemplo": "<meta charset='UTF-8'>"
+    "exemplo": "*<*meta charset='UTF-8'*>*"
 },
-
-"HTML": {
-    "a": {
-      "descricao": "Cria um link de hipertexto que leva a outra página ou âncora.",
-      "exemplo": "<a href='https://exemplo.com' target='_blank'>Visite este site</a>"
-    },
-    "img": {
-      "descricao": "Exibe uma imagem no documento, usando o atributo src para o arquivo e alt para texto alternativo.",
-      "exemplo": "<img src='imagem.jpg' alt='Descrição da imagem'>"
-    },
-    "div": {
-      "descricao": "Contêiner genérico para agrupar outros elementos e aplicar estilos ou scripts.",
-      "exemplo": "<div class='caixa'>Conteúdo aqui</div>"
-    },
     "section": {
       "descricao": "Define uma seção genérica de conteúdo tematicamente relacionado.",
       "exemplo": "<section><h2>Título da Seção</h2><p>Texto da seção.</p></section>"
@@ -89,10 +75,15 @@
     "header": {
       "descricao": "Representa o cabeçalho de uma página ou de uma seção, normalmente contendo título ou navegação.",
       "exemplo": "<header><h1>Bem‑vindo</h1></header>"
-    }
+    
   },
-  "CSS": {
-    "color": {
+
+ "class": {
+    "descricao": "Atributo usado para definir uma ou mais classes CSS para um elemento, permitindo a aplicação de estilos específicos.",
+    "exemplo": "*<*div class='minha-classe'>Conteúdo estilizado</div*>*"
+   
+  },
+  "color": {
       "descricao": "Define a cor do texto de um elemento.",
       "exemplo": "p { color: #333333; }"
     },
@@ -111,9 +102,8 @@
     "border-radius": {
       "descricao": "Arredonda os cantos de um elemento.",
       "exemplo": "button { border-radius: 8px; }"
-    }
-  },
-  "JavaScript": {
+    },
+
     "let": {
       "descricao": "Declara uma variável cujo valor pode ser alterado posteriormente.",
       "exemplo": "let contador = 0;"
@@ -129,13 +119,9 @@
     "for": {
       "descricao": "Loop que percorre valores ou executa repetidamente um bloco de código por um número específico de vezes.",
       "exemplo": "for (let i = 0; i < 5; i++) { console.log(i); }"
-    },
-    "addEventListener": {
-      "descricao": "Método que adiciona um ouvinte para um evento em um elemento (como clique, digitação, etc.).",
-      "exemplo": "botao.addEventListener('click', () => { alert('Clicado!'); });"
     }
-  }
 
 }
+
 
 
